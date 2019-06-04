@@ -10,7 +10,9 @@
 // @match        http*://scratch.mit.edu/studios/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jQuery-linkify/2.1.8/linkify.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jQuery-linkify/2.1.8/linkify-jquery.min.js
+// @require      https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js
 // @grant        none
 // ==/UserScript==
 
 $('p').linkify()
+$('div').linkify()
