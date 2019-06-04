@@ -1,11 +1,11 @@
 // ==UserScript==
-// @name         Scratch Notifier Shortcut
+// @name         Scratch Stats Links
 // @namespace    scratch.mit.edu/users/Hans5958
 // @version      1
-// @description  Creates a ScratchNotifier.com and my Scratch Notifier shortcut link on Scratch.
-// @copyright    Hans5958
+// @description  Quick links on profiles to ScratchStats.com and my Scratch Stats.
+// @author       Hans5958
 // @license      MIT
-// @match        http*://scratch.mit.edu/users/*
+// @match        https://scratch.mit.edu/users/*
 // @grant        none
 // ==/UserScript==
 
