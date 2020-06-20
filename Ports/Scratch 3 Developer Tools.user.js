@@ -2,11 +2,13 @@
 // @name         Scratch 3 Developer Tools
 // @namespace    https://github.com/griffpatch/Scratch3-Dev-Tools
 // @version      1.0.0
-// @description  ...to enhance your Scratch Editing Experience. Ported, based on the extension. (https://chrome.google.com/webstore/detail/scratch-3-developer-tools/phacniajokfchdcamjhonkbhlcipplno)
+// @description  ...to enhance your Scratch Editing Experience. Injects the code on the source code. Ported, based on the extension. (https://chrome.google.com/webstore/detail/scratch-3-developer-tools/phacniajokfchdcamjhonkbhlcipplno)
 // @author       griffpatch, ported by Hans5958
 // @match        http*://scratch.mit.edu/projects/editor
 // @match        http*://scratch.mit.edu/projects/*
 // @match        http*://scratch.mit.edu/projects/*/editor
+// @icon         https://cdn.jsdelivr.net/gh/griffpatch/Scratch3-Dev-Tools/bigIcon.png
+// @updateURL    https://cdn.jsdelivr.net/gh/griffpatch/Scratch3-Dev-Tools/inject.user.js
 // @grant        none
 // ==/UserScript==
 
