@@ -63,6 +63,12 @@ Ports of userscripts.
 | I can't believe it's not 2 👎 | 1.6.0 | MIT | [Install](https://hans5958.github.io/userscripts/css/scratch-infinitytec-not2.user.css) |
 <!-- USERSTYLES END -->
 
+### Key
+
+| Symbol | Description |
+| - | - |
+| 👎 | Deprecated |
+
 ## License
 
 For each userscript/userstyle, check the "License" row.

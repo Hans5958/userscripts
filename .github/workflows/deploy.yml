@@ -31,9 +31,11 @@ jobs:
       - name: Deploy site
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
           publish_dir: ./dist
           force_orphan: true
+          user_name: Auto5958
+          user_email: 69833949+Auto5958@users.noreply.github.com
       - name: Commit README
         uses: EndBug/add-and-commit@v4 
         with:
@@ -43,4 +45,4 @@ jobs:
           author_email: 69833949+Auto5958@users.noreply.github.com
           add: README.md
         env:
-          GITHUB_TOKEN: ${{secrets.GH_PAT}}
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
