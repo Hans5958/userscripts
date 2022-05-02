@@ -71,7 +71,7 @@ export function stringifyUserscript(obj, {
 	alignKeys = true
 } = {}) {
 	let { meta, content } = obj
-	const maxKeyLength = alignKeys ? Math.max.apply(null, Object.keys(meta).map(k => k.length)) : 0
+	const maxKeyLength = alignKeys ? Math.max.apply(null, Object.keys(meta).map(k => k.length)) + 1: 0
 	meta = Object.keys(meta).map(key => {
 		return getLinesUserscript(key, meta[key], maxKeyLength)
 	}).join('')
@@ -87,7 +87,7 @@ export function stringifyUserstyle(obj, {
 	alignKeys = true
 } = {}) {
 	let { meta, content } = obj
-	const maxKeyLength = alignKeys ? Math.max.apply(null, Object.keys(meta).map(k => k.length)) : 0
+	const maxKeyLength = alignKeys ? Math.max.apply(null, Object.keys(meta).map(k => k.length)) + 1 : 0
 	meta = Object.keys(meta).map(key => {
 		return getLinesUserstyle(key, meta[key], maxKeyLength)
 	}).join('')
