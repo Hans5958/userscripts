@@ -10,6 +10,12 @@
 				"default-zoom-name-override": {
 					"fileName": "Other Scripts/Default Zoom Name Override.user.js"
 				},
+				"youtube-screenshot": {
+					"fileName": "Other Scripts/YouTube Screenshot.user.js"
+				},
+				"death-to-youtube-autoplay": {
+					"fileName": "Other Scripts/Death to YouTube Autoplay.user.js"
+				},
 				"indihome-landing-page-skipper": {
 					"fileName": "Other Scripts/IndiHome Landing Page Skipper.user.js"
 				},
