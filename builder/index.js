@@ -31,7 +31,7 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 		meta.namespace = "Hans5958"
 		meta.license = license || "MIT"
 		meta.updateURL = baseUrl + exportName
-		meta.downloadURL = meta.downloadURL
+		meta.downloadURL = meta.updateURL
 		meta.homepageURL = homepageUrl
 		meta.supportURL = supportUrl
 		fs.outputFileSync(distFolder + exportName, stringifyUserscript(userscript))
