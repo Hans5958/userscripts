@@ -12,7 +12,7 @@ fs.ensureDir(distFolder)
 let readmeText = fs.readFileSync("README.md", "utf-8")
 
 const { scripts, styles } = fs.readJsonSync('builder/db.json')
-let sectionText = ""
+let section1Text = ""
 
 Object.entries(scripts).forEach(([categoryId, value]) => {
 	const {
@@ -21,7 +21,13 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 		description: categoryDescription
 	} = value
 
-	sectionText += `#### ${categoryName}\n\n${categoryDescription}\n\n| Name | Version | License | Install |\n| - | - | - | - |\n`
+	section1Text += `#### ${categoryName}\n\n${categoryDescription}\n\n<table>
+<tr>
+	<th>Name</th>
+	<th>Version</th>
+	<th>License</th>
+	<th>Install</th>
+</tr>`
 
 	Object.entries(categoryEntries).forEach(([id, options]) => {
 		let exportName = `js/${id}.user.js`
@@ -35,16 +41,26 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 		meta.homepageURL = homepageUrl
 		meta.supportURL = supportUrl
 		fs.outputFileSync(distFolder + exportName, stringifyUserscript(userscript))
-	
-		sectionText += `| ${meta.name + (deprecated ? " 👎" : "")} | ${meta.version} | ${meta.license} | [Install](${meta.updateURL}) |` + "\n"
+
+		section1Text += `
+<tr>
+	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
+	<td>${meta.version}</td>
+	<td>${meta.license}</td>
+	<td><a href=${meta.updateURL}>Install</a></td>
+</tr>
+<tr>
+	<td colspan="4">${meta.description}</td>
+</tr>\n`
 	})
 
-	sectionText += "\n"
+	section1Text += "\n</table>\n\n"
 })
 
-readmeText = readmeText.replace(/<!-- USERSCRIPTS START -->.+<!-- USERSCRIPTS END -->/s, "<!-- USERSCRIPTS START -->\n" + sectionText.trim() + "\n<!-- USERSCRIPTS END -->")
+readmeText = readmeText.replace(/<!-- USERSCRIPTS START -->.+<!-- USERSCRIPTS END -->/s, "<!-- USERSCRIPTS START -->\n" + section1Text.trim() + "\n<!-- USERSCRIPTS END -->")
 
-sectionText = ""
+
+let section2Text = ""
 
 Object.entries(styles).forEach(([categoryId, value]) => {
 	const {
@@ -53,7 +69,13 @@ Object.entries(styles).forEach(([categoryId, value]) => {
 		description: categoryDescription
 	} = value
 
-	sectionText += `#### ${categoryName}\n\n${categoryDescription}\n\n| Name | Version | License | Install |\n| - | - | - | - |\n`
+	section2Text += `#### ${categoryName}\n\n${categoryDescription}\n\n<table>
+<tr>
+	<th>Name</th>
+	<th>Version</th>
+	<th>License</th>
+	<th>Install</th>
+</tr>`
 
 	Object.entries(categoryEntries).forEach(([id, options]) => {
 		let exportName = `css/${id}.user.css`
@@ -66,14 +88,23 @@ Object.entries(styles).forEach(([categoryId, value]) => {
 		meta.homepageURL = homepageUrl
 		meta.supportURL = supportUrl
 		fs.outputFileSync(distFolder + exportName, stringifyUserstyle(userscript))
-	
-		sectionText += `| ${meta.name + (deprecated ? " 👎" : "")} | ${meta.version} | ${meta.license} | [Install](${meta.updateURL}) |` + "\n"
+
+		section2Text += `
+<tr>
+	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
+	<td>${meta.version}</td>
+	<td>${meta.license}</td>
+	<td><a href=${meta.updateURL}>Install</a></td>
+</tr>
+<tr>
+	<td colspan="4">${meta.description}</td>
+</tr>\n`
 	})
 
-	sectionText += "\n"
+	section2Text += "\n</table>\n\n"
 })
 
-readmeText = readmeText.replace(/<!-- USERSTYLES START -->.+<!-- USERSTYLES END -->/s, "<!-- USERSTYLES START -->\n" + sectionText.trim() + "\n<!-- USERSTYLES END -->")
+readmeText = readmeText.replace(/<!-- USERSTYLES START -->.+<!-- USERSTYLES END -->/s, "<!-- USERSTYLES START -->\n" + section2Text.trim() + "\n<!-- USERSTYLES END -->")
 
 fs.outputFileSync("README.md", readmeText)
 
