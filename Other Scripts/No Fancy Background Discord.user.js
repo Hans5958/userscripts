@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name           	No Fancy Background Discord
-// @namespace      	https://hans5958.github.com
-// @author			    Hans5958
-// @description    	Removes that fancy background on some parts of Discord.
-// @version        	1
-// @match    		    *://discordapp.com/login
-// @match    		    *://discordapp.com/register
-// @match    		    *://discordapp.com/invite/*
+// @namespace      	Hans5958
+// @author          Hans5958
+// @description     Removes that fancy background on some parts of Discord.
+// @version         1
+// @match           *://discordapp.com/login
+// @match           *://discordapp.com/register
+// @match           *://discordapp.com/invite/*
 // ==/UserScript==
 
 function a() {
