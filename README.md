@@ -29,7 +29,7 @@ General userscripts that are not on the specific categories.
 	<td><a href=https://hans5958.github.io/userscripts/js/akinator-progression-visualizer.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">A userscript to visualize Akinator's progression (or certainity/probability). Inspired by the moving vertical background of the app's old version.</td>
+	<td colspan="4">Adds visualization of Akinator's progression (aka. certainity, probability). Inspired by the moving vertical background of the app's old version.</td>
 </tr>
 
 <tr>
@@ -222,7 +222,7 @@ Ports of userscripts.
 	<td><a href=https://hans5958.github.io/userscripts/css/scratch-infinitytec-2colors.user.css>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Adding 2.0 block colors to Scratch 3.0. Ported from https://github.com/infinitytec/2.0-Colors</td>
+	<td colspan="4">Adding 2.0 block colors to Scratch 3.0. Ported from https://github.com/infinitytec/2.0-Colors.</td>
 </tr>
 
 <tr>
@@ -252,7 +252,7 @@ Ports of userscripts.
 	<td><a href=https://hans5958.github.io/userscripts/css/scratch-infinitytec-not2.user.css>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Making 3.0 look like 2. Ported from https://github.com/infinitytec/I-Cant-Believe-Its-Not-2/.</td>
+	<td colspan="4">Making 3.0 look like 2. Ported from https://github.com/infinitytec/I-Cant-Believe-Its-Not-2.</td>
 </tr>
 
 </table>
