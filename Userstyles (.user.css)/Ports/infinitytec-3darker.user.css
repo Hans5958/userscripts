@@ -2,15 +2,10 @@
 @name         3.Darker
 @namespace    infinitytec.github.io
 @version      1.4.0
-@description  Darker theme for 3.0. Distributed under the MIT license.
+@description  Darker theme for 3.0. Ported from https://github.com/infinitytec/3.Darker.
 @author       infinitytec (ported by Hans5958)
 ==/UserStyle== */
-/* 
 
-Source:
-https://github.com/infinitytec/3.Darker
-
-*/
 @-moz-document domain("https://scratch.mit.edu/projects/*") {
     :root {
         --main-bg: #111111;

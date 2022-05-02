@@ -26,7 +26,7 @@
 			"name": "Ports",
 			"description": "Ports of extensions/add-ons.",
 			"entries": {
-				"dont-track-me-google-user-js": {
+				"dont-track-me-google": {
 					"fileName": "Ports/Don't track me Google.user.js",
 					"deprecated": true
 				},
@@ -34,7 +34,7 @@
 					"fileName": "Ports/Scratch 3 Developer Tools.user.js",
 					"deprecated": true
 				},
-				"isonline-user-js": {
+				"isonline": {
 					"fileName": "Scratch/isonline.user.js/main.user.js",
 					"deprecated": true
 				}

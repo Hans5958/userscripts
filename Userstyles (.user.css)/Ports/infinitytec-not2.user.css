@@ -2,16 +2,9 @@
 @name         I can't believe it's not 2
 @namespace    infinitytec.github.io
 @version      1.6.0
-@description  Making 3.0 look like 2.
+@description  Making 3.0 look like 2. Ported from https://github.com/infinitytec/I-Cant-Believe-Its-Not-2/.
 @author       infinitytec (ported by Hans5958)
 ==/UserStyle== */
-
-/* 
-
-Source:
-https://github.com/infinitytec/I-Cant-Believe-Its-Not-2
-
-*/
 
 @-moz-document domain("https://llk.github.io/scratch-gui/*"),
 domain("https://beta.scratch.mit.edu/*"), domain("https://scratch.mit.edu/projects/editor/*"), domain("https://scratch.mit.edu/projects/*") {

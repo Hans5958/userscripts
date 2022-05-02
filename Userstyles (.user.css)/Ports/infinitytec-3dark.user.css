@@ -2,16 +2,10 @@
 @name         3.Dark
 @namespace    infinitytec.github.io
 @version      1.4.0
-@description  Dark theme for 3.0. Distributed under the MIT license.
+@description  Dark theme for 3.0. Ported from https://github.com/infinitytec/3.Dark.
 @author       infinitytec (ported by Hans5958)
 ==/UserStyle== */
 
-/* 
-
-Source:
-https://github.com/infinitytec/3.Dark
-
-*/
 @-moz-document domain("https://scratch.mit.edu/projects/*") {
     :root {
         --main-bg: #051638;
