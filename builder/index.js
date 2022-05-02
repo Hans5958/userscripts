@@ -76,3 +76,5 @@ Object.entries(styles).forEach(([categoryId, value]) => {
 readmeText = readmeText.replace(/<!-- USERSTYLES START -->.+<!-- USERSTYLES END -->/s, "<!-- USERSTYLES START -->\n" + sectionText.trim() + "\n<!-- USERSTYLES END -->")
 
 fs.outputFileSync("README.md", readmeText)
+
+fs.copyFileSync("builder/redirect.html", "dist/index.html")
