@@ -1,0 +1,46 @@
+on: 
+  push:
+    branches:
+      - master
+
+name: Deployment
+
+jobs:
+  deploy:
+    name: Deployment
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14.x
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: ${{ runner.os }}-node-
+
+      - name: Install dependencies
+        run: npm install
+      - name: Create branch folder
+        run: node builder/index.js
+ 
+      - name: Deploy site
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          force_orphan: true
+      - name: Commit README
+        uses: EndBug/add-and-commit@v4 
+        with:
+          force: true
+          message: Update README
+          author_name: Auto5958
+          author_email: 69833949+Auto5958@users.noreply.github.com
+          add: README.md
+        env:
+          GITHUB_TOKEN: ${{secrets.GH_PAT}}

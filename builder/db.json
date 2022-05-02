@@ -1,0 +1,102 @@
+{
+	"scripts": {
+		"general": {
+			"name": "General",
+			"description": "General userscripts that are not on the specific categories.",
+			"entries": {
+				"akinator-progression-visualizer": {
+					"fileName": "Other Scripts/Akinator Progression Visualizer.user.js"
+				},
+				"default-zoom-name-override": {
+					"fileName": "Other Scripts/Default Zoom Name Override.user.js"
+				},
+				"indihome-landing-page-skipper": {
+					"fileName": "Other Scripts/IndiHome Landing Page Skipper.user.js"
+				},
+				"news-pagination-skipper": {
+					"fileName": "Other Scripts/News Paginaton Skipper.user.js"
+				},
+				"no-fancy-background-discord": {
+					"fileName": "Other Scripts/No Fancy Background Discord.user.js",
+					"deprecated": true
+				}
+			}
+		},
+		"ports": {
+			"name": "Ports",
+			"description": "Ports of extensions/add-ons.",
+			"entries": {
+				"dont-track-me-google-user-js": {
+					"fileName": "Ports/Don't track me Google.user.js",
+					"deprecated": true
+				},
+				"scratch-3-developer-tools": {
+					"fileName": "Ports/Scratch 3 Developer Tools.user.js",
+					"deprecated": true
+				},
+				"isonline-user-js": {
+					"fileName": "Scratch/isonline.user.js/main.user.js",
+					"deprecated": true
+				}
+			}
+		},
+		"scratch": {
+			"name": "Scratch",
+			"description": "Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some userscript are implemented on [Scratch Addons](https://scratchaddons.com).",
+			"entries": {
+				"scratch-message-notifier": {
+					"fileName": "Scratch/Message Notifier/main.user.js",
+					"deprecated": true
+				},
+				"scratch-curator-links": {
+					"fileName": "Scratch/Curator Links.user.js",
+					"deprecated": true
+				},
+				"scratch-follow-dashboard": {
+					"fileName": "Scratch/Follow Dashboard.user.js",
+					"deprecated": true
+				},
+				"scratch-more-links": {
+					"fileName": "Scratch/More Links in Scratch.user.js",
+					"deprecated": true
+				},
+				"scratch-remove-description-box": {
+					"fileName": "Scratch/Remove Description Box.user.js",
+					"deprecated": true
+				},
+				"scratch-stats-links": {
+					"fileName": "Scratch/Scratch Stats Links.user.js",
+					"deprecated": true
+				},
+				"scratch-stats-links-shorter": {
+					"fileName": "Scratch/Shorter Scratch Stats Links.user.js",
+					"deprecated": true
+				}
+			}
+		}
+	},
+	"styles": {
+		"ports": {
+			"name": "Ports",
+			"description": "Ports of userscripts.",
+			"entries": {
+				"scratch-infinitytec-2colors": {
+					"fileName": "Userstyles (.user.css)/Ports/infinitytec-2Colors.user.css",
+					"deprecated": true
+				},
+				"scratch-infinitytec-3dark": {
+					"fileName": "Userstyles (.user.css)/Ports/infinitytec-3dark.user.css",
+					"deprecated": true
+				},
+				"scratch-infinitytec-3darker": {
+					"fileName": "Userstyles (.user.css)/Ports/infinitytec-3darker.user.css",
+					"deprecated": true
+				},
+				"scratch-infinitytec-not2": {
+					"fileName": "Userstyles (.user.css)/Ports/infinitytec-not2.user.css",
+					"deprecated": true
+				}
+			}
+		}
+	}
+}
