@@ -92,7 +92,7 @@ export function stringifyUserstyle(obj, {
 		return getLinesUserstyle(key, meta[key], maxKeyLength)
 	}).join('')
 
-	return '/* ==UserStyle==\n' + meta + '// ==/UserStyle==' + content
+	return '/* ==UserStyle==\n' + meta + '==/UserStyle== */' + content
 }
 
 /**
