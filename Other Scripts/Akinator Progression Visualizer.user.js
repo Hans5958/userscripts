@@ -2,7 +2,7 @@
 // @name         Akinator Progression Visualizer
 // @namespace    Hans5958
 // @version      1.0.0
-// @description  A userscript to visualize Akinator's progression (or certainity/probability). Inspired by the moving vertical background of the app's old version.
+// @description  Adds visualization of Akinator's progression (aka. certainity, probability). Inspired by the moving vertical background of the app's old version.
 // @author       Hans5958
 // @match        https://*.akinator.com/game
 // @grant        none
