@@ -6,6 +6,7 @@ This repository hosts my userscripts and userstyles.
 
 Below are the download links of the available userscripts and userstyles. These have been built with complete metadata. I will try my best to not change the URLs.
 
+You can also download these from the available stores, indicated with the logo as the symbol.
 
 > WARNING: This is experimental. It should be usable, but be wary of the changes.
 
