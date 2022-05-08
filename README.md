@@ -112,7 +112,7 @@ Ports of extensions/add-ons.
 	<td><a href=https://hans5958.github.io/userscripts/js/isonline.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Know who is online on Scratch! Ported for Tampermonkey/Greasemonkey use. Ported by Hans5958.</td>
+	<td colspan="4">Know who is online on Scratch!</td>
 </tr>
 
 </table>
