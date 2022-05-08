@@ -65,6 +65,16 @@ General userscripts that are not on the specific categories.
 </tr>
 
 <tr>
+	<td>Hide Spectator Info on Woogles.io</td>
+	<td>1.0.0</td>
+	<td>MIT</td>
+	<td><a href=https://hans5958.github.io/userscripts/js/woogles-hide-spec-info.user.js>Install</a> </td>
+</tr>
+<tr>
+	<td colspan="4">Hides player-specific information from observer/spectator view. Good for stopping stream sniping when broadcasting live. Add "hidespec", "hidelive" or "hidestream" on the notepad to hide it.</td>
+</tr>
+
+<tr>
 	<td>IndiHome Landing Page Skipper</td>
 	<td>1</td>
 	<td>MIT</td>
