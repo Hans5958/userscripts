@@ -3,7 +3,7 @@
 // @namespace    https://github.com/griffpatch/Scratch3-Dev-Tools
 // @version      1.0.0
 // @description  To enhance your Scratch Editing Experience. Injects the code on the source code from https://github.com/griffpatch/Scratch3-Dev-Tools.
-// @author       griffpatch, ported by Hans5958
+// @author       griffpatch (ported by Hans5958)
 // @match        http*://scratch.mit.edu/projects/editor
 // @match        http*://scratch.mit.edu/projects/*
 // @match        http*://scratch.mit.edu/projects/*/editor
