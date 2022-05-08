@@ -43,6 +43,26 @@ General userscripts that are not on the specific categories.
 </tr>
 
 <tr>
+	<td>YouTube Screenshot</td>
+	<td>1.0.0</td>
+	<td>MIT</td>
+	<td><a href=https://hans5958.github.io/userscripts/js/youtube-screenshot.user.js>Install</a></td>
+</tr>
+<tr>
+	<td colspan="4">Adds a button to get a screenshot of YouTube videos. Based on https://github.com/gurumukhi/youtube-screenshot.</td>
+</tr>
+
+<tr>
+	<td>Death to YouTube Autoplay!</td>
+	<td>1.0.0</td>
+	<td>MIT</td>
+	<td><a href=https://hans5958.github.io/userscripts/js/death-to-youtube-autoplay.user.js>Install</a></td>
+</tr>
+<tr>
+	<td colspan="4">Forcefully disable and hide autoplay on YouTube, at all, like nothing happened before. Improved from https://greasyfork.org/en/scripts/32159-youtube-disable-suggested-autoplay/</td>
+</tr>
+
+<tr>
 	<td>IndiHome Landing Page Skipper</td>
 	<td>1</td>
 	<td>MIT</td>
