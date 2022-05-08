@@ -31,7 +31,7 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 
 	Object.entries(categoryEntries).forEach(([id, options]) => {
 		let exportName = `js/${id}.user.js`
-		const { fileName, license, deprecated } = options
+		const { fileName, license, deprecated, greasyfork } = options
 		const userscript = parseUserscript(fs.readFileSync(fileName, 'utf-8'))
 		const meta = userscript.meta
 		meta.namespace = "Hans5958"
@@ -47,7 +47,7 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
 	<td>${meta.version}</td>
 	<td>${meta.license}</td>
-	<td><a href=${meta.updateURL}>Install</a></td>
+	<td><a href=${meta.updateURL}>Install</a> ${greasyfork ? `<a href=${greasyfork}><img src='./.github/greasyfork.png'></a>` : ""}</td>
 </tr>
 <tr>
 	<td colspan="4">${meta.description}</td>
@@ -79,7 +79,7 @@ Object.entries(styles).forEach(([categoryId, value]) => {
 
 	Object.entries(categoryEntries).forEach(([id, options]) => {
 		let exportName = `css/${id}.user.css`
-		const { fileName, license, deprecated } = options
+		const { fileName, license, deprecated, greasyfork } = options
 		const userscript = parseUserstyle(fs.readFileSync(fileName, 'utf-8'))
 		const meta = userscript.meta
 		meta.namespace = "Hans5958"
@@ -94,7 +94,7 @@ Object.entries(styles).forEach(([categoryId, value]) => {
 	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
 	<td>${meta.version}</td>
 	<td>${meta.license}</td>
-	<td><a href=${meta.updateURL}>Install</a></td>
+	<td><a href=${meta.updateURL}>Install</a> ${greasyfork ? `<a href=${greasyfork}><img src='./.github/greasyfork.png'></a>` : ""}</td>
 </tr>
 <tr>
 	<td colspan="4">${meta.description}</td>
