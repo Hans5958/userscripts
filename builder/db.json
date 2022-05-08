@@ -6,11 +6,11 @@
 			"entries": {
 				"akinator-progression-visualizer": {
 					"fileName": "Other Scripts/Akinator Progression Visualizer.user.js",
-					"greasyfork": "https://greasyfork.org/en/scripts/444658-akinator-progression-visualizer"
+					"greasyfork": 444658
 				},
 				"default-zoom-name-override": {
 					"fileName": "Other Scripts/Default Zoom Name Override.user.js",
-					"greasyfork": "https://greasyfork.org/en/scripts/444659-default-zoom-name-override"
+					"greasyfork": 444659
 				},
 				"youtube-screenshot": {
 					"fileName": "Other Scripts/YouTube Screenshot.user.js"
@@ -23,16 +23,16 @@
 				},
 				"indihome-landing-page-skipper": {
 					"fileName": "Other Scripts/IndiHome Landing Page Skipper.user.js",
-					"greasyfork": "https://greasyfork.org/en/scripts/444660-indihome-landing-page-skipper"
+					"greasyfork": 444660
 				},
 				"news-pagination-skipper": {
 					"fileName": "Other Scripts/News Paginaton Skipper.user.js",
-					"greasyfork": "https://greasyfork.org/en/scripts/444661-news-pagination-skipper"
+					"greasyfork": 444661
 				},
 				"no-fancy-background-discord": {
 					"fileName": "Other Scripts/No Fancy Background Discord.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444662-no-fancy-background-discord"
+					"greasyfork": 444662
 				}
 			}
 		},
@@ -43,17 +43,17 @@
 				"dont-track-me-google": {
 					"fileName": "Ports/Don't track me Google.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444663-don-t-track-me-google-user-js"
+					"greasyfork": 444663
 				},
 				"scratch-3-developer-tools": {
 					"fileName": "Ports/Scratch 3 Developer Tools.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444664-scratch-3-developer-tools"
+					"greasyfork": 444664
 				},
 				"isonline": {
 					"fileName": "Scratch/isonline.user.js/main.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444665-isonline"
+					"greasyfork": 444665
 				}
 			}
 		},
@@ -64,37 +64,37 @@
 				"scratch-message-notifier": {
 					"fileName": "Scratch/Message Notifier/main.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444666-scratch-message-notifier"
+					"greasyfork": 444666
 				},
 				"scratch-curator-links": {
 					"fileName": "Scratch/Curator Links.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444667-curator-links-on-scratch"
+					"greasyfork": 444667
 				},
 				"scratch-follow-dashboard": {
 					"fileName": "Scratch/Follow Dashboard.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444668-hans5958-s-follow-dashboard"
+					"greasyfork": 444668
 				},
 				"scratch-more-links": {
 					"fileName": "Scratch/More Links in Scratch.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444669-more-links-in-scratch"
+					"greasyfork": 444669
 				},
 				"scratch-remove-description-box": {
 					"fileName": "Scratch/Remove Description Box.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444670-remove-description-box-on-scratch"
+					"greasyfork": 444670
 				},
 				"scratch-stats-links": {
 					"fileName": "Scratch/Scratch Stats Links.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444671-scratch-stats-links"
+					"greasyfork": 444671
 				},
 				"scratch-stats-links-shorter": {
 					"fileName": "Scratch/Shorter Scratch Stats Links.user.js",
 					"deprecated": true,
-					"greasyfork": "https://greasyfork.org/en/scripts/444672-shorter-scratch-stats-links"
+					"greasyfork": 444672
 				}
 			}
 		}

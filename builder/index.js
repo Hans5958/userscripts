@@ -47,7 +47,7 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
 	<td>${meta.version}</td>
 	<td>${meta.license}</td>
-	<td><a href=${meta.updateURL}>Install</a> ${greasyfork ? `<a href=${greasyfork}><img src='./.github/greasyfork.png'></a>` : ""}</td>
+	<td><a href=${meta.updateURL}>Install</a> ${greasyfork ? `<a href="https://greasyfork.org/en/scripts/${greasyfork}"><img src='./.github/greasyfork.png'></a>` : ""}</td>
 </tr>
 <tr>
 	<td colspan="4">${meta.description}</td>
@@ -94,7 +94,7 @@ Object.entries(styles).forEach(([categoryId, value]) => {
 	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
 	<td>${meta.version}</td>
 	<td>${meta.license}</td>
-	<td><a href=${meta.updateURL}>Install</a> ${greasyfork ? `<a href=${greasyfork}><img src='./.github/greasyfork.png'></a>` : ""}</td>
+	<td><a href=${meta.updateURL}>Install</a> ${greasyfork ? `<a href="https://greasyfork.org/en/scripts/${greasyfork}"><img src='./.github/greasyfork.png'></a>` : ""}</td>
 </tr>
 <tr>
 	<td colspan="4">${meta.description}</td>
