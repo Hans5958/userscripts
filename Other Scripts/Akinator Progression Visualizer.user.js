@@ -6,6 +6,7 @@
 // @author       Hans5958
 // @match        https://*.akinator.com/game
 // @grant        none
+// @license      MIT
 // ==/UserScript==
 
 let lastData = ""

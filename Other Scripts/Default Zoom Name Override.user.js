@@ -4,6 +4,7 @@
 // @version      1.0.0
 // @description  Set your default name that will override your name on the Zoom aplication. Useful in some cases. Set up by going to https://zoom.us/j/ (or any join link), and click the "Default Name" on the top.
 // @author       Hans5958
+// @license      MIT
 // @match        https://zoom.us/join
 // @match        https://*.zoom.us/join
 // @match        https://zoom.us/j/*
