@@ -89,7 +89,7 @@ General userscripts that are not on the specific categories.
 	<td><a href=https://hans5958.github.io/userscripts/js/no-fancy-background-discord.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Removes that fancy background on some parts of Discord.</td>
+	<td colspan="4">Removes that fancy background on some parts of Discord. (Deprecated: Use at your own risk.)</td>
 </tr>
 
 </table>
@@ -112,7 +112,7 @@ Ports of extensions/add-ons.
 	<td><a href=https://hans5958.github.io/userscripts/js/dont-track-me-google.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome.</td>
+	<td colspan="4">Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome. (Deprecated)</td>
 </tr>
 
 <tr>
@@ -122,7 +122,7 @@ Ports of extensions/add-ons.
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-3-developer-tools.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">To enhance your Scratch Editing Experience. Injects the code on the source code from https://github.com/griffpatch/Scratch3-Dev-Tools.</td>
+	<td colspan="4">To enhance your Scratch Editing Experience. Injects the code on the source code from https://github.com/griffpatch/Scratch3-Dev-Tools. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
 <tr>
@@ -132,7 +132,7 @@ Ports of extensions/add-ons.
 	<td><a href=https://hans5958.github.io/userscripts/js/isonline.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Know who is online on Scratch!</td>
+	<td colspan="4">Know who is online on Scratch! (Deprecated)</td>
 </tr>
 
 </table>
@@ -155,7 +155,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-message-notifier.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Notifies every message, checks every 2 seconds</td>
+	<td colspan="4">Notifies every message, checks every 2 seconds (Deprecated)</td>
 </tr>
 
 <tr>
@@ -165,7 +165,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-curator-links.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Creates a clickable link for the curator on the front page.</td>
+	<td colspan="4">Creates a clickable link for the curator on the front page. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
 <tr>
@@ -175,7 +175,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-follow-dashboard.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">A (ugly, but) convinent follow dashboard. Great for follow accounts. Visit scratch.mit.edu/follow to activate the dashboard.</td>
+	<td colspan="4">A (ugly, but) convinent follow dashboard. Great for follow accounts. Visit scratch.mit.edu/follow to activate the dashboard. (Deprecated: Use at your own risk.)</td>
 </tr>
 
 <tr>
@@ -185,7 +185,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-more-links.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Adds links of third-party websites (that is not linked) on Scratch.</td>
+	<td colspan="4">Adds links of third-party websites (that is not linked) on Scratch. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
 <tr>
@@ -195,7 +195,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-remove-description-box.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Remove the instruction/notes box on Scratch</td>
+	<td colspan="4">Remove the instruction/notes box on Scratch (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
 <tr>
@@ -205,7 +205,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-stats-links.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Quick links on profiles to ScratchStats.com and my Scratch Stats.</td>
+	<td colspan="4">Quick links on profiles to ScratchStats.com and my Scratch Stats. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
 <tr>
@@ -215,7 +215,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td><a href=https://hans5958.github.io/userscripts/js/scratch-stats-links-shorter.user.js>Install</a></td>
 </tr>
 <tr>
-	<td colspan="4">Quick links on profiles to ScratchStats.com and my Scratch Stats.</td>
+	<td colspan="4">Quick links on profiles to ScratchStats.com and my Scratch Stats. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
 </table>
