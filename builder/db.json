@@ -18,6 +18,9 @@
 				"death-to-youtube-autoplay": {
 					"fileName": "Other Scripts/Death to YouTube Autoplay.user.js"
 				},
+				"woogles-hide-spec-info": {
+					"fileName": "Other Scripts/Hide Spectator View on Woogles.io.user.js"
+				},
 				"indihome-landing-page-skipper": {
 					"fileName": "Other Scripts/IndiHome Landing Page Skipper.user.js",
 					"greasyfork": "https://greasyfork.org/en/scripts/444660-indihome-landing-page-skipper"
