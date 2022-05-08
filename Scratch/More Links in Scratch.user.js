@@ -2,7 +2,7 @@
 // @name         More Links in Scratch
 // @namespace    scratch.mit.edu/users/Hans5958
 // @version      1
-// @description  Adds links of third-party websites (that is not linked) on Scratch.
+// @description  Adds links of third-party websites (that is not linked) on Scratch. (Deprecated: Use Scratch Addons instead.)
 // @copyright    Hans5958
 // @license      MIT
 // @match        http*://scratch.mit.edu/users/*

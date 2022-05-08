@@ -2,7 +2,7 @@
 // @name         Shorter Scratch Stats Links
 // @namespace    scratch.mit.edu/users/Hans5958
 // @version      1
-// @description  Quick links on profiles to ScratchStats.com and my Scratch Stats.
+// @description  Quick links on profiles to ScratchStats.com and my Scratch Stats. (Deprecated: Use Scratch Addons instead.)
 // @author       Hans5958
 // @license      MIT
 // @match        https://scratch.mit.edu/users/*

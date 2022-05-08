@@ -2,7 +2,7 @@
 // @name           	Don't track me Google.user.js
 // @namespace      	Rob W
 // @author			Rob W (ported by Hans5958)
-// @description    	Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome.
+// @description    	Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome. (Deprecated)
 // @version        	4.21
 // @match    		*://*.google.com/*
 // @match    		*://*.google.ad/*

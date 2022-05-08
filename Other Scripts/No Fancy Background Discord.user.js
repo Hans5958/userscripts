@@ -2,7 +2,7 @@
 // @name           	No Fancy Background Discord
 // @namespace      	Hans5958
 // @author          Hans5958
-// @description     Removes that fancy background on some parts of Discord.
+// @description     Removes that fancy background on some parts of Discord. (Deprecated: Use at your own risk.)
 // @version         1
 // @match           *://discordapp.com/login
 // @match           *://discordapp.com/register

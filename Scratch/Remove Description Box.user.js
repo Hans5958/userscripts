@@ -2,7 +2,7 @@
 // @name         Remove Description Box on Scratch
 // @namespace    scratch.mit.edu/users/Hans5958
 // @version      4
-// @description  Remove the instruction/notes box on Scratch
+// @description  Remove the instruction/notes box on Scratch (Deprecated: Use Scratch Addons instead.)
 // @copyright    Hans5958
 // @license      MIT
 // @match        http*://scratch.mit.edu/projects/*

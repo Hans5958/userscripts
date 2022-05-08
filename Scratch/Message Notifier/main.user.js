@@ -7,7 +7,7 @@ Please click the "Install" button to proceed!
 // @name          Scratch Message Notifier
 // @author        Hans5958
 // @namespace     https://scratch.mit.edu/users/Hans5958
-// @description   Notifies every message, checks every 2 seconds
+// @description   Notifies every message, checks every 2 seconds (Deprecated)
 // @include       http*://scratch.mit.edu/*
 // @updateURL     https://raw.githubusercontent.com/Hans5958/userscripts/master/Scratch/Message%20Notifier/main.user.js
 // @downloadURL   https://raw.githubusercontent.com/Hans5958/userscripts/master/Scratch/Message%20Notifier/main.user.js

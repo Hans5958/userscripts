@@ -2,7 +2,7 @@
 // @name         Hans5958's Follow Dashboard
 // @namespace    scratch.mit.edu/users/Hans5958
 // @version      1
-// @description  A (ugly, but) convinent follow dashboard. Great for follow accounts. Visit scratch.mit.edu/follow to activate the dashboard.
+// @description  A (ugly, but) convinent follow dashboard. Great for follow accounts. Visit scratch.mit.edu/follow to activate the dashboard. (Deprecated: Use at your own risk.)
 // @copyright    Hans5958
 // @license      MIT
 // @match        https://scratch.mit.edu/follow

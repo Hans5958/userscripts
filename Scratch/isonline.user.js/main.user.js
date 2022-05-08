@@ -2,7 +2,7 @@
 // @name         isOnline
 // @namespace    isOnline v2
 // @version      2.0
-// @description  Know who is online on Scratch!
+// @description  Know who is online on Scratch! (Deprecated)
 // @author       @World_Languages and @chopper100 (ported by Hans5958)
 // @include      http*://scratch.mit.edu/*
 // @grant        none
