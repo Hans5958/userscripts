@@ -121,7 +121,7 @@ Ports of extensions/add-ons.
 	<td>Don't track me Google.user.js 👎</td>
 	<td>4.21</td>
 	<td>MIT</td>
-	<td><a href=https://hans5958.github.io/userscripts/js/dont-track-me-google.user.js>Install</a> <a href="https://greasyfork.org/en/scripts/444663"><img src='./.github/greasyfork.png'></a></td>
+	<td><a href=https://hans5958.github.io/userscripts/js/dont-track-me-google.user.js>Install</a> </td>
 </tr>
 <tr>
 	<td colspan="4">Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome. (Deprecated)</td>
@@ -141,7 +141,7 @@ Ports of extensions/add-ons.
 	<td>isOnline 👎</td>
 	<td>2.0</td>
 	<td>MIT</td>
-	<td><a href=https://hans5958.github.io/userscripts/js/isonline.user.js>Install</a> <a href="https://greasyfork.org/en/scripts/444665"><img src='./.github/greasyfork.png'></a></td>
+	<td><a href=https://hans5958.github.io/userscripts/js/isonline.user.js>Install</a> </td>
 </tr>
 <tr>
 	<td colspan="4">Know who is online on Scratch! (Deprecated)</td>
