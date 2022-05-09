@@ -42,8 +42,7 @@
 			"entries": {
 				"dont-track-me-google": {
 					"fileName": "Ports/Don't track me Google.user.js",
-					"deprecated": true,
-					"greasyfork": 444663
+					"deprecated": true
 				},
 				"scratch-3-developer-tools": {
 					"fileName": "Ports/Scratch 3 Developer Tools.user.js",
@@ -52,8 +51,7 @@
 				},
 				"isonline": {
 					"fileName": "Scratch/isonline.user.js/main.user.js",
-					"deprecated": true,
-					"greasyfork": 444665
+					"deprecated": true
 				}
 			}
 		},
