@@ -43,7 +43,7 @@ Object.entries(scripts).forEach(([categoryId, value]) => {
 		fs.outputFileSync(distFolder + exportName, stringifyUserscript(userscript))
 
 		section1Text += `
-<tr>
+<tr id="${id}">
 	<td>${meta.name + (deprecated ? " 👎" : "")}</td>
 	<td>${meta.version}</td>
 	<td>${meta.license}</td>
