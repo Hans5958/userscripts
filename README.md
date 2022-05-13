@@ -24,7 +24,7 @@ General userscripts that are not on the specific categories.
 	<th>License</th>
 	<th>Install</th>
 </tr>
-<tr>
+<tr id="akinator-progression-visualizer">
 	<td>Akinator Progression Visualizer</td>
 	<td>1.0.0</td>
 	<td>MIT</td>
@@ -34,7 +34,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Adds visualization of Akinator's progression (aka. certainity, probability). Inspired by the moving vertical background of the app's old version.</td>
 </tr>
 
-<tr>
+<tr id="default-zoom-name-override">
 	<td>Default Zoom Name Override</td>
 	<td>1.0.0</td>
 	<td>MIT</td>
@@ -44,7 +44,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Set your default name that will override your name on the Zoom aplication. Useful in some cases. Set up by going to https://zoom.us/j/ (or any join link), and click the "Default Name" on the top.</td>
 </tr>
 
-<tr>
+<tr id="youtube-screenshot">
 	<td>YouTube Screenshot</td>
 	<td>1.0.0</td>
 	<td>MIT</td>
@@ -54,7 +54,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Adds a button to get a screenshot of YouTube videos. Based on https://github.com/gurumukhi/youtube-screenshot.</td>
 </tr>
 
-<tr>
+<tr id="death-to-youtube-autoplay">
 	<td>Death to YouTube Autoplay!</td>
 	<td>1.0.0</td>
 	<td>MIT</td>
@@ -64,7 +64,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Forcefully disable and hide autoplay on YouTube, at all, like nothing happened before. Improved from https://greasyfork.org/en/scripts/32159-youtube-disable-suggested-autoplay/</td>
 </tr>
 
-<tr>
+<tr id="woogles-hide-spec-info">
 	<td>Hide Spectator Info on Woogles.io</td>
 	<td>1.0.0</td>
 	<td>MIT</td>
@@ -74,7 +74,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Hides player-specific information from observer/spectator view. Good for stopping stream sniping when broadcasting live. Add "hidespec", "hidelive" or "hidestream" on the notepad to hide it.</td>
 </tr>
 
-<tr>
+<tr id="indihome-landing-page-skipper">
 	<td>IndiHome Landing Page Skipper</td>
 	<td>1</td>
 	<td>MIT</td>
@@ -84,7 +84,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Bypasses the IndiHome landing page that appeares on HTTP destinations.</td>
 </tr>
 
-<tr>
+<tr id="news-pagination-skipper">
 	<td>News Pagination Skipper</td>
 	<td>1.0.1</td>
 	<td>MIT</td>
@@ -94,7 +94,7 @@ General userscripts that are not on the specific categories.
 	<td colspan="4">Skips paginations on news articles and shows the whole thing in a single page instead.</td>
 </tr>
 
-<tr>
+<tr id="no-fancy-background-discord">
 	<td>No Fancy Background Discord 👎</td>
 	<td>1</td>
 	<td>MIT</td>
@@ -117,7 +117,7 @@ Ports of extensions/add-ons.
 	<th>License</th>
 	<th>Install</th>
 </tr>
-<tr>
+<tr id="dont-track-me-google">
 	<td>Don't track me Google.user.js 👎</td>
 	<td>4.21</td>
 	<td>MIT</td>
@@ -127,7 +127,7 @@ Ports of extensions/add-ons.
 	<td colspan="4">Removes the annoying link-conversion at Google Search/maps/... The Referrer is also hidden to improve your privacy. Designed for Firefox and Google Chrome. (Deprecated)</td>
 </tr>
 
-<tr>
+<tr id="scratch-3-developer-tools">
 	<td>Scratch 3 Developer Tools 👎</td>
 	<td>1.0.0</td>
 	<td>MIT</td>
@@ -137,7 +137,7 @@ Ports of extensions/add-ons.
 	<td colspan="4">To enhance your Scratch Editing Experience. Injects the code on the source code from https://github.com/griffpatch/Scratch3-Dev-Tools. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
-<tr>
+<tr id="isonline">
 	<td>isOnline 👎</td>
 	<td>2.0</td>
 	<td>MIT</td>
@@ -160,7 +160,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<th>License</th>
 	<th>Install</th>
 </tr>
-<tr>
+<tr id="scratch-message-notifier">
 	<td>Scratch Message Notifier 👎</td>
 	<td>1.3.1.2</td>
 	<td>MIT</td>
@@ -170,7 +170,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td colspan="4">Notifies every message, checks every 2 seconds (Deprecated)</td>
 </tr>
 
-<tr>
+<tr id="scratch-curator-links">
 	<td>Curator Links on Scratch 👎</td>
 	<td>1</td>
 	<td>MIT</td>
@@ -180,7 +180,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td colspan="4">Creates a clickable link for the curator on the front page. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
-<tr>
+<tr id="scratch-follow-dashboard">
 	<td>Hans5958's Follow Dashboard 👎</td>
 	<td>1</td>
 	<td>MIT</td>
@@ -190,7 +190,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td colspan="4">A (ugly, but) convinent follow dashboard. Great for follow accounts. Visit scratch.mit.edu/follow to activate the dashboard. (Deprecated: Use at your own risk.)</td>
 </tr>
 
-<tr>
+<tr id="scratch-more-links">
 	<td>More Links in Scratch 👎</td>
 	<td>1</td>
 	<td>MIT</td>
@@ -200,7 +200,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td colspan="4">Adds links of third-party websites (that is not linked) on Scratch. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
-<tr>
+<tr id="scratch-remove-description-box">
 	<td>Remove Description Box on Scratch 👎</td>
 	<td>4</td>
 	<td>MIT</td>
@@ -210,7 +210,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td colspan="4">Remove the instruction/notes box on Scratch (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
-<tr>
+<tr id="scratch-stats-links">
 	<td>Scratch Stats Links 👎</td>
 	<td>1</td>
 	<td>MIT</td>
@@ -220,7 +220,7 @@ Userscripts for Scratch (scratch.mit.edu). Most of this are deprecated, but some
 	<td colspan="4">Quick links on profiles to ScratchStats.com and my Scratch Stats. (Deprecated: Use Scratch Addons instead.)</td>
 </tr>
 
-<tr>
+<tr id="scratch-stats-links-shorter">
 	<td>Shorter Scratch Stats Links 👎</td>
 	<td>1</td>
 	<td>MIT</td>
