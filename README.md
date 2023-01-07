@@ -26,7 +26,7 @@ General userscripts that are not on the specific categories.
 </tr>
 <tr id="akinator-progression-visualizer">
 	<td>Akinator Progression Visualizer</td>
-	<td>1.0.0</td>
+	<td>1.0.1</td>
 	<td>MIT</td>
 	<td><a href=https://hans5958.github.io/userscripts/js/akinator-progression-visualizer.user.js>Install</a> <a href="https://greasyfork.org/en/scripts/444658"><img src='./.github/greasyfork.png'></a></td>
 </tr>
