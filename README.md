@@ -8,7 +8,7 @@ Below are the download links of the available userscripts and userstyles. These 
 
 You can also download these from the available stores, indicated with the logo as the symbol.
 
-> WARNING: This distribution method via this page is experimental. It should be usable, but be wary of the changes.
+> **Warning**: This distribution method via this page is experimental. It should be usable, but be wary of the changes.
 
 ### Userscripts
 
