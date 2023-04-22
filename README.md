@@ -1,5 +1,7 @@
 # Hans5958's userscripts and userstyles
 
+[![Deployment status](https://img.shields.io/github/actions/workflow/status/Hans5958/userscripts/deploy.yml?label=deploy&style=flat-square)](https://github.com/Hans5958/userscripts/actions/workflows/deploy.yml)
+
 This repository hosts my userscripts and userstyles.
 
 ## Download
