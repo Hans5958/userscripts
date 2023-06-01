@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Akinator Progression Visualizer
 // @namespace    Hans5958
-// @version      1.0.2
+// @version      1.0.3
 // @description  Adds visualization of Akinator's progression (aka. certainity, probability). Inspired by the moving vertical background of the app's old version.
 // @author       Hans5958
 // @match        https://*.akinator.com/game
@@ -10,7 +10,7 @@
 // ==/UserScript==
 
 let lastData = {}
-const sliderElement = document.createElement('div')
+let sliderElement = document.createElement('div')
 const sidebarElement = document.querySelector('div.col-md-2:nth-child(3), div.col-md-2:nth-child(4)')
 
 sliderElement.innerHTML = `<div style="position: absolute; height: 100%; ">
